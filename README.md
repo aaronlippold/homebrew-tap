@@ -1,6 +1,6 @@
 # Homebrew Tap
 
-Homebrew formulas for Aaron Lippold's tools.
+Homebrew casks for Aaron Lippold's tools.
 
 ## Installation
 
@@ -9,22 +9,22 @@ Homebrew formulas for Aaron Lippold's tools.
 brew tap aaronlippold/tap
 
 # Install tools
-brew install go-split
+brew install --cask go-split
 ```
 
-## Available Formulas
+## Available Casks
 
-| Formula | Description |
-|---------|-------------|
+| Cask | Description |
+|------|-------------|
 | [go-split](https://github.com/aaronlippold/go-split) | AI-powered Go file splitter - intelligently split large Go files into focused modules |
 
 ## Updating
 
 ```bash
 brew update
-brew upgrade go-split
+brew upgrade --cask go-split
 ```
 
 ## Issues
 
-If you have issues with a formula, please report them on the respective project's GitHub repository.
+If you have issues with a cask, please report them on the respective project's GitHub repository.
