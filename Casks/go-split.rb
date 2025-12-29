@@ -3,7 +3,7 @@ cask "go-split" do
   name "go-split"
   desc "AI-powered Go file splitter - intelligently split large Go files into focused modules"
   homepage "https://github.com/aaronlippold/go-split"
-  version "0.2.0"
+  version "0.2.1"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "go-split" do
   on_macos do
     on_intel do
       url "https://github.com/aaronlippold/go-split/releases/download/v#{version}/go-split_#{version}_darwin_amd64.tar.gz"
-      sha256 "890313e73538a87188a994bd0f769d780b62a09b3c8e17fb56abebd64d3ec3c3"
+      sha256 "f875198437203a9a02f1fb9478e04517aef6d63bddfa15b511d65d48f8286531"
     end
     on_arm do
       url "https://github.com/aaronlippold/go-split/releases/download/v#{version}/go-split_#{version}_darwin_arm64.tar.gz"
-      sha256 "494c12e94b697b1e834891fd1378ae5056837f3103c9f446ab7e66d104c27210"
+      sha256 "4c4042388e75a87e21b8c4aa31bf76b77435adf61c4555be57bc915d7a28ea46"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/aaronlippold/go-split/releases/download/v#{version}/go-split_#{version}_linux_amd64.tar.gz"
-      sha256 "14804db4ff94cc7422544b0a3c0af05f62fb28d1b32b17ad1982140ebb03d355"
+      sha256 "ef4219d1e351de5c7ddc2b3504b6a0ae47e5e86d98c35986fe2ae9ecd945b158"
     end
     on_arm do
       url "https://github.com/aaronlippold/go-split/releases/download/v#{version}/go-split_#{version}_linux_arm64.tar.gz"
-      sha256 "daed6da9c537d41b519aa642f08c40a5ee47d8ea4231a2c8bebb043ee5954e6f"
+      sha256 "44c127d5217b7377e626c664b295f9ba3773566ba96f5ecd67d6426fb2b20d08"
     end
   end
 
